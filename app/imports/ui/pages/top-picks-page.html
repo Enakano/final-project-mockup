@@ -1,0 +1,38 @@
+<template name="Top_Picks_Page">
+
+    <div class="ui text container">
+      {{#if Template.subscriptionsReady}}
+
+      <h2>Today's Top Picks</h2>
+
+      <table style="margin-top: 20px" class="ui celled table">
+        <thead>
+        <tr>
+          <th>Number</th>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Price</th>
+          <th>Restaurant/Vendor</th>
+          <th>Location</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        {{#each food in foodList}}
+        <tr>
+          <td></td>
+          <td>{{food.name}}</td>
+          <td>{{food.type}}</td>
+          <td>{{food.price}}</td>
+          <td>{{food.vendor}}</td>
+          <td>{{food.location}}</td>
+        </tr>
+        {{/each}}
+        </tbody>
+      </table>
+      {{else}}
+      {{> Loading}}
+      {{/if}}
+    </div>
+
+</template>

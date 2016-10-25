@@ -1,11 +1,11 @@
-import { Stuff } from '../../api/stuff/stuff.js';
+import { Food } from '../../api/food/food.js';
 import { _ } from 'meteor/underscore';
 
 /**
- * A list of Stuff to pre-fill the Collection.
+ * A list of Food to pre-fill the Collection.
  * @type {*[]}
  */
-const stuffSeeds = [
+const foodSeeds = [
   { name: 'Flautas', type: 'Mexican', price: '$8.50', vendor: 'Sergs', location: 'Krauss Hall' },
   { name: 'Burritos', type: 'Mexican', price: '$8.50', vendor: 'Sergs', location: 'Holmes Hall' },
   { name: '2 Tacos', type: 'Mexican', price: '$8.50', vendor: 'Sergs', location: 'Krauss Hall' },
@@ -14,10 +14,10 @@ const stuffSeeds = [
 
 
 /**
- * Initialize the Stuff collection if empty with seed data.
+ * Initialize the Food collection if empty with seed data.
  */
-if (Stuff.find().count() === 0) {
-  _.each(stuffSeeds, function seedStuffs(stuff) {
-    Stuff.insert(stuff);
+if (Food.find().count() === 0) {
+  _.each(foodSeeds, function seedFood(stuff) {
+    Food.insert(stuff);
   });
 }

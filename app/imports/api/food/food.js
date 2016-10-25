@@ -3,12 +3,12 @@ import { SimpleSchema } from 'meteor/aldeed:simple-schema';
 
 /* eslint-disable object-shorthand */
 
-export const Stuff = new Mongo.Collection('Stuff');
+export const Food = new Mongo.Collection('Food');
 
 /**
- * Create the schema for Stuff
+ * Create the schema for Food
  */
-export const StuffSchema = new SimpleSchema({
+export const FoodSchema = new SimpleSchema({
   name: {
     label: 'name',
     type: String,
@@ -41,4 +41,4 @@ export const StuffSchema = new SimpleSchema({
   },
 });
 
-Stuff.attachSchema(StuffSchema);
+Food.attachSchema(FoodSchema);

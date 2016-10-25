@@ -1,0 +1,45 @@
+<template name="User_Home_Page">
+
+  <div class="ui middle aligned centered grid text container">
+
+    <div class="ui message">
+      <i class="close icon"></i>
+
+      <div class="header">
+        Terms of Use
+      </div>
+
+      <p>This application has been developed by students at the University of Hawaii. It is provided on a pilot basis and there are no guarantees regarding future access to this system. All users are expected to adhere to the principles specified in the <a href="http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php">University of Hawaii Systemwide Student Conduct Code.</a> The developers reserve the right to ban access to this system by any students who violate this code of conduct or otherwise display inappropriate behavior on the site.</p>
+    </div>
+
+    <div class="four wide column">
+      <img class="ui small image" src="/images/question.jpg"/>
+    </div>
+
+    <div class="eight wide column">
+      <h1>Welcome to Manoa Meal Matcher</h1>
+
+      <div class="ui link list">
+        <div class="item">
+          <a class="header" href="{{pathFor 'Announcements_Page'}}">Announcements</a>
+          <div class="description">Latest news and updates about this app.</div>
+        </div>
+        <div class="item">
+        <a class="header" href="{{pathFor 'User_Profile_Page'}}">Edit Preferences</a>
+        <div class="description">Make changes to your profile and food preferences here.</div>
+        </div>
+        <div class="item">
+        <a class="header" href="{{pathFor 'List_Available_Page'}}">All Available Meal Choices</a>
+          <div class="description">All meal choices available right now.</div>
+        </div>
+        <div class="item">
+          <a class="header" href="{{pathFor 'Top_Picks_Page'}}">Today's Top Picks</a>
+        <div class="description">The top picks of the day.</div>
+      </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</template>
