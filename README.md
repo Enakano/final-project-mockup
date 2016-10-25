@@ -14,26 +14,26 @@ Implemented by the Home_Page template.
 
 User Home
 
-![](https://github.com/Enakano/final-project-mockup/blob/master/doc/user-home.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/user-home.jpg)
 
 Admin Home
 
-![](https://github.com/Enakano/final-project-mockup/blob/master/doc/admin-home.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/admin-home.jpg)
 
 #### Food Available page
 
 You must login to see the contents of the Food collection.
 
-![](https://github.com/Enakano/final-project-mockup/blob/master/doc/food-available.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/food-available.jpg)
 
 #### Announcements page
 
 You must login to see the contents of or add new documents to Announcements.
 
-![](https://github.com/Enakano/final-project-mockup/blob/master/doc/announcements.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/announcements.jpg)
 
 #### Top Picks page
 
 You must login to add edit documents in the Food collection.
 
-![](https://github.com/Enakano/final-project-mockup/blob/master/doc/top-picks.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/top-picks.jpg)
