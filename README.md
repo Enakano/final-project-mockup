@@ -4,7 +4,7 @@ final-project-mockup is a mock up of an app, following the guidelines of the Man
 
 #### Landing page
 
-![](https://raw.githubusercontent.com/Enakano/final-project-mockup/tree/master/doc/landing-page.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/landing-page.jpg)
 
 You must login to access any page other than the Landing page. 
 
@@ -14,26 +14,26 @@ Implemented by the Home_Page template.
 
 User Home
 
-![](https://raw.githubusercontent.com/Enakano/final-project-mockup/tree/master/doc/user-home.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/user-home.jpeg)
 
 Admin Home
 
-![](https://raw.githubusercontent.com/Enakano/final-project-mockup/tree/master/doc/admin-home.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/admin-home.jpeg)
 
 #### Food Available page
 
 You must login to see the contents of the Food collection.
 
-![](https://raw.githubusercontent.com/Enakano/final-project-mockup/tree/master/doc/food-available.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/food-available.jpeg)
 
 #### Announcements page
 
 You must login to see the contents of or add new documents to Announcements.
 
-![](https://raw.githubusercontent.com/Enakano/final-project-mockup/tree/master/doc/announcements.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/announcements.jpeg)
 
 #### Top Picks page
 
 You must login to add edit documents in the Food collection.
 
-![](https://raw.githubusercontent.com/Enakano/final-project-mockup/tree/master/doc/top-picks.jpeg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/top-picks.jpeg)
