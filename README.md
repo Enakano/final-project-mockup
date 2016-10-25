@@ -30,7 +30,7 @@ You must login to see the contents of the Food collection.
 
 You must login to see the contents of or add new documents to Announcements.
 
-![](https://github.com/Enakano/final-project-mockup/blob/master/doc/announcements.jpg)
+![](https://github.com/Enakano/final-project-mockup/blob/master/doc/Announcements.jpg)
 
 #### Top Picks page
 
