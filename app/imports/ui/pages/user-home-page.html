@@ -18,15 +18,18 @@
 
     <div class="eight wide column">
       <h1>Welcome to Manoa Meal Matcher</h1>
-
       <div class="ui link list">
         <div class="item">
           <a class="header" href="{{pathFor 'Announcements_Page'}}">Announcements</a>
           <div class="description">Latest news and updates about this app.</div>
+          <button class="ui basic button" href="{{pathFor 'Announcements_Page'}}">
+            <i class="announcement icon"></i>Annoncements</button>
         </div>
         <div class="item">
         <a class="header" href="{{pathFor 'User_Profile_Page'}}">Edit Preferences</a>
         <div class="description">Make changes to your profile and food preferences here.</div>
+          <button class="ui basic button" href="{{pathFor 'List_Users_Page'}}">
+            <i class="info circle icon"></i>Edit Profile</button>
         </div>
         <div class="item">
         <a class="header" href="{{pathFor 'List_Available_Page'}}">All Available Meal Choices</a>
